@@ -1,0 +1,11 @@
+### Health
+GET http://localhost:5000/api/health
+
+### Products
+GET http://localhost:5000/api/products
+
+### Register customer
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{"name":"Demo Customer","email":"customer@example.com","password":"StrongPass123"}
